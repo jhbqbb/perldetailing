@@ -1,0 +1,343 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0E1013">
+<meta name="format-detection" content="telephone=no">
+<title>perl. – Mobile Autoaufbereitung in München</title>
+<meta name="description" content="Mobile Autoaufbereitung in München: Innenreinigung, Handwäsche und Lackversiegelung direkt vor deiner Tür. Festpreise, Termin per WhatsApp.">
+<link rel="icon" type="image/svg+xml" href="perl-icon.svg">
+<link rel="apple-touch-icon" href="perl-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@600;700;800&amp;family=Inter:wght@400;500;600&amp;display=swap">
+<style>
+body{margin:0;background:#0E1013;}
+html,body{overflow-x:hidden}
+a{color:#8BD3FF}a:hover{color:#BFE6FF}
+@keyframes pl-slide{0%{transform:translateY(0)}100%{transform:translateY(26px)}}
+@keyframes pl-shine{0%{transform:translateX(-120%) skewX(-18deg)}60%,100%{transform:translateX(320%) skewX(-18deg)}}
+@keyframes pl-rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+.pl-bead{position:absolute;border-radius:50%;background:radial-gradient(circle at 32% 28%,rgba(255,255,255,.95) 0 9%,rgba(190,225,255,.55) 16%,rgba(120,170,210,.12) 52%,rgba(0,0,0,.35) 100%);box-shadow:0 3px 6px rgba(0,0,0,.45),inset 0 -2px 3px rgba(255,255,255,.18)}
+.pl-drip{animation:pl-slide 7s ease-in infinite alternate}
+.pl-shine{position:absolute;top:0;bottom:0;width:30%;background:linear-gradient(90deg,transparent,rgba(255,255,255,.10),transparent);animation:pl-shine 6s ease-in-out infinite}
+.pl-rise{animation:pl-rise .8s ease-out both}
+.pl-btn{transition:transform .15s ease, background-color .15s ease}
+.pl-btn:hover{transform:translateY(-2px)}
+.pl-card{transition:transform .2s ease, border-color .2s ease}
+.pl-card:hover{transform:translateY(-4px);border-color:#8BD3FF !important}
+.pl-nav a{color:#EEF1F4;text-decoration:none}
+.pl-nav a:hover{color:#8BD3FF}
+.pl-dirt{background-color:#5b5146;background-image:radial-gradient(rgba(40,30,20,.55) 1.5px,transparent 2px),radial-gradient(rgba(150,130,100,.35) 1px,transparent 1.5px);background-size:14px 14px,9px 9px;background-position:0 0,4px 6px}
+.pl-clean{background:linear-gradient(135deg,#1b2a3a 0%,#0f1822 45%,#2a4560 52%,#0f1822 60%,#0b121a 100%)}
+details summary{cursor:pointer;list-style:none}
+details summary::-webkit-details-marker{display:none}
+details[open] .pl-plus{transform:rotate(45deg)}
+.pl-plus{transition:transform .2s ease}
+input[type=range].pl-range{-webkit-appearance:none;appearance:none;width:100%;height:44px;background:transparent;cursor:ew-resize}
+input[type=range].pl-range::-webkit-slider-runnable-track{height:4px;background:#2A313A;border-radius:4px}
+input[type=range].pl-range::-webkit-slider-thumb{-webkit-appearance:none;width:28px;height:28px;margin-top:-12px;border-radius:50%;background:#8BD3FF;border:3px solid #0E1013}
+input[type=range].pl-range::-moz-range-track{height:4px;background:#2A313A;border-radius:4px}
+input[type=range].pl-range::-moz-range-thumb{width:24px;height:24px;border-radius:50%;background:#8BD3FF;border:3px solid #0E1013}
+@media (max-width: 720px){
+.pl-navlinks a:not(.pl-btn){display:none}
+.pl-hero{padding-top:44px !important;gap:40px !important}
+.pl-section{padding-top:72px !important;padding-bottom:24px !important}
+.pl-hood{height:300px !important}
+.pl-cta{padding:32px 24px !important}
+}
+@media (prefers-reduced-motion: reduce){.pl-drip,.pl-shine,.pl-rise{animation:none}}
+</style>
+<style>html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}</style>
+</head>
+<body>
+<div style="font-family: Inter, system-ui, sans-serif; color: #EEF1F4; background: #0E1013; font-size: 17px; line-height: 1.6;">
+
+<!-- NAV -->
+<header style="position: relative; z-index: 2; border-bottom: 1px solid #222830;">
+<nav class="pl-nav" aria-label="Hauptnavigation" style="max-width: 1240px; margin: 0 auto; padding: 16px 24px; display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap;">
+<a href="#top" aria-label="perl. Startseite" style="display: inline-flex; align-items: center; min-height: 44px;"><svg role="img" aria-label="perl." viewBox="1.69 24.25 191.60 99.16" width="58" height="30" style="display: block;"><path d="M4.6875 120.41015625H21.484375V92.333984375H21.6796875C24.365234375 98.046875 29.443359375 101.123046875 36.23046875 101.123046875C49.755859375 101.123046875 58.49609375 90.4296875 58.49609375 74.12109375C58.49609375 58.349609375 49.4140625 47.314453125 36.376953125 47.314453125C29.6875 47.314453125 24.609375 49.951171875 21.533203125 55.17578125H21.2890625V48.4375H4.6875ZM31.494140625 87.6953125C25.146484375 87.6953125 20.80078125 82.373046875 20.80078125 74.12109375C20.80078125 65.966796875 25.146484375 60.693359375 31.494140625 60.693359375C37.6953125 60.693359375 41.50390625 65.72265625 41.50390625 74.12109375C41.50390625 82.6171875 37.6953125 87.6953125 31.494140625 87.6953125ZM85.685546875 101.171875C98.72265625 101.171875 109.123046875 93.896484375 111.02734375 83.49609375H95.939453125C94.71875 86.9140625 91.203125 89.0625 86.271484375 89.0625C79.630859375 89.0625 75.724609375 84.912109375 75.529296875 78.369140625H111.41796875V73.828125C111.41796875 58.203125 100.724609375 47.265625 85.24609375 47.265625C69.962890625 47.265625 59.123046875 58.49609375 59.123046875 74.21875C59.123046875 89.94140625 69.865234375 101.171875 85.685546875 101.171875ZM75.626953125 68.310546875C76.359375 62.890625 80.021484375 59.66796875 85.685546875 59.66796875C91.30078125 59.66796875 95.01171875 62.890625 95.744140625 68.310546875ZM113.94921875 100.0H130.74609375V73.583984375C130.74609375 66.259765625 134.896484375 62.060546875 140.90234375 62.060546875C143.34375 62.060546875 146.322265625 62.158203125 147.54296875 62.20703125V48.33984375C146.17578125 48.291015625 144.759765625 48.2421875 142.953125 48.2421875C136.068359375 48.2421875 132.2109375 50.9765625 130.35546875 57.51953125H130.208984375V48.4375H113.94921875ZM165.6015625 27.24609375H148.8046875V100.0H165.6015625Z" fill="#EEF1F4"></path><path d="M181.79 73.65 C184.76 79.60 190.29 86.83 190.29 91.50 A8.5 8.5 0 1 1 173.29 91.50 C173.29 86.83 178.81 79.60 181.79 73.65Z" fill="#8BD3FF"></path></svg></a>
+<div class="pl-navlinks" style="display: flex; flex-wrap: wrap; align-items: center; gap: 28px; font-weight: 500; font-size: 16px;">
+<a href="#pakete">Pakete</a>
+<a href="#ablauf">Ablauf</a>
+<a href="#vorher-nachher">Vorher / Nachher</a>
+<a href="#faq">FAQ</a>
+<a class="pl-btn" href="https://wa.me/4917683210136?text=Hallo%20perl.%2C%20ich%20m%C3%B6chte%20einen%20Termin%20anfragen." style="display: inline-flex; align-items: center; gap: 8px; background: #8BD3FF; color: #0E1013; padding: 11px 18px; border-radius: 12px; font-weight: 600; min-height: 44px; box-sizing: border-box;">
+<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"></path></svg>
+Termin anfragen
+</a>
+</div>
+</nav>
+</header>
+
+<!-- HERO -->
+<section id="top" class="pl-hero" style="max-width: 1240px; margin: 0 auto; padding: 80px 24px 88px; display: flex; flex-wrap: wrap; gap: 56px; align-items: center;">
+<div class="pl-rise" style="flex: 1 1 500px; min-width: 0;">
+<p style="margin: 0 0 20px; display: inline-flex; align-items: center; gap: 10px; border: 1px solid #2A313A; border-radius: 999px; padding: 6px 14px; font-size: 14px; font-weight: 600; color: #C9D1DA;">
+<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#8BD3FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+Mobile Autoaufbereitung in München
+</p>
+<h1 style="margin: 0; font-family: 'Inter Tight', Inter, sans-serif; font-weight: 800; font-size: clamp(46px, 6.6vw, 92px); line-height: 0.96; letter-spacing: -0.045em;">Dein Auto.<br>Wie neu.<br><span style="color: #8BD3FF;">Vor deiner Tür.</span></h1>
+<p style="margin: 28px 0 0; font-size: 20px; line-height: 1.55; color: #C9D1DA; max-width: 540px;">Innenreinigung, Handwäsche und Lackversiegelung – wir kommen zu dir nach Hause oder ins Büro. Du parkst, wir machen den Rest.</p>
+<div style="margin-top: 34px; display: flex; flex-wrap: wrap; gap: 12px;">
+<a class="pl-btn" href="https://wa.me/4917683210136?text=Hallo%20perl.%2C%20ich%20m%C3%B6chte%20einen%20Termin%20anfragen." style="display: inline-flex; align-items: center; gap: 10px; background: #8BD3FF; color: #0E1013; padding: 16px 26px; border-radius: 14px; font-weight: 600; font-size: 17px; text-decoration: none; min-height: 44px; box-sizing: border-box;">
+<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"></path></svg>
+Termin per WhatsApp
+</a>
+<a class="pl-btn" href="#pakete" style="display: inline-flex; align-items: center; gap: 10px; background: transparent; color: #EEF1F4; border: 1px solid #3A434E; padding: 16px 26px; border-radius: 14px; font-weight: 600; font-size: 17px; text-decoration: none; min-height: 44px; box-sizing: border-box;">Preise ansehen</a>
+</div>
+<div style="margin-top: 34px; display: flex; flex-wrap: wrap; gap: 10px 24px; font-size: 15px; color: #C9D1DA;">
+<span style="display: inline-flex; align-items: center; gap: 8px;"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#8BD3FF" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg>Festpreise</span>
+<span style="display: inline-flex; align-items: center; gap: 8px;"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#8BD3FF" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg>Anfahrt in München inklusive</span>
+<span style="display: inline-flex; align-items: center; gap: 8px;"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#8BD3FF" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg>Bezahlen erst danach</span>
+</div>
+</div>
+
+<!-- Hood visual with water beads -->
+<div style="flex: 1 1 440px; min-width: 0;">
+<div class="pl-hood pl-clean" role="img" aria-label="Versiegelter Autolack, auf dem Wasser abperlt" style="position: relative; height: 460px; border-radius: 28px; overflow: hidden; border: 1px solid #2A313A;">
+<div class="pl-shine" aria-hidden="true"></div>
+<div class="pl-drip" aria-hidden="true" style="position: absolute; inset: 0;">
+<span class="pl-bead" style="left: 12%; top: 14%; width: 26px; height: 24px;"></span>
+<span class="pl-bead" style="left: 24%; top: 30%; width: 14px; height: 13px;"></span>
+<span class="pl-bead" style="left: 38%; top: 18%; width: 34px; height: 31px;"></span>
+<span class="pl-bead" style="left: 56%; top: 26%; width: 18px; height: 17px;"></span>
+<span class="pl-bead" style="left: 70%; top: 12%; width: 22px; height: 20px;"></span>
+<span class="pl-bead" style="left: 82%; top: 34%; width: 30px; height: 28px;"></span>
+<span class="pl-bead" style="left: 16%; top: 52%; width: 38px; height: 35px;"></span>
+<span class="pl-bead" style="left: 34%; top: 46%; width: 12px; height: 11px;"></span>
+<span class="pl-bead" style="left: 48%; top: 58%; width: 24px; height: 22px;"></span>
+<span class="pl-bead" style="left: 64%; top: 50%; width: 42px; height: 38px;"></span>
+<span class="pl-bead" style="left: 86%; top: 60%; width: 16px; height: 15px;"></span>
+<span class="pl-bead" style="left: 8%; top: 76%; width: 18px; height: 17px;"></span>
+<span class="pl-bead" style="left: 28%; top: 72%; width: 28px; height: 26px;"></span>
+<span class="pl-bead" style="left: 52%; top: 80%; width: 14px; height: 13px;"></span>
+<span class="pl-bead" style="left: 72%; top: 74%; width: 26px; height: 24px;"></span>
+<span class="pl-bead" style="left: 44%; top: 34%; width: 10px; height: 9px;"></span>
+</div>
+<div style="position: absolute; left: 20px; bottom: 20px; right: 20px; display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap;">
+<span style="background: rgba(14,16,19,.82); border: 1px solid #2A313A; border-radius: 12px; padding: 10px 14px; font-size: 14px; font-weight: 600; display: inline-flex; align-items: center; gap: 8px;">
+<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#8BD3FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22a7 7 0 0 0 7-7c0-2-1-3.9-3-5.5s-3.5-4-4-6.5c-.5 2.5-2 4.9-4 6.5C6 11.1 5 13 5 15a7 7 0 0 0 7 7z"></path></svg>
+Mit Lackversiegelung perlt Wasser einfach ab
+</span>
+</div>
+</div>
+</div>
+</section>
+
+<!-- PACKAGES (light) -->
+<section id="pakete" style="background: #EEF1F4; color: #0E1013;">
+<div class="pl-section" style="max-width: 1240px; margin: 0 auto; padding: 104px 24px 96px;">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 24px;">
+<div style="min-width: 0; flex: 1 1 420px;">
+<p style="margin: 0; font-weight: 600; color: #1565C0; font-size: 15px; letter-spacing: 0.08em; text-transform: uppercase;">Pakete &amp; Preise</p>
+<h2 style="margin: 10px 0 0; font-family: 'Inter Tight', Inter, sans-serif; font-weight: 800; font-size: clamp(34px, 4.6vw, 60px); line-height: 1.02; letter-spacing: -0.04em;">Festpreis. Kein Kleingedrucktes.</h2>
+</div>
+<fieldset style="border: 0; margin: 0; padding: 0; min-width: 0;">
+<legend style="font-size: 14px; font-weight: 600; color: #3E4752; margin-bottom: 8px;">Dein Fahrzeug</legend>
+<div style="display: flex; gap: 6px; background: #FFFFFF; border: 1px solid #C9D1DA; border-radius: 14px; padding: 5px; flex-wrap: wrap;">
+<button type="button" data-size="S" aria-pressed="true" style="min-height: 44px; padding: 0 16px; border-radius: 10px; border: 0; cursor: pointer; font: 600 15px Inter, sans-serif; background: #0E1013; color: #EEF1F4;">Kleinwagen</button>
+<button type="button" data-size="M" aria-pressed="false" style="min-height: 44px; padding: 0 16px; border-radius: 10px; border: 0; cursor: pointer; font: 600 15px Inter, sans-serif; background: transparent; color: #0E1013;">Limousine / Kombi</button>
+<button type="button" data-size="L" aria-pressed="false" style="min-height: 44px; padding: 0 16px; border-radius: 10px; border: 0; cursor: pointer; font: 600 15px Inter, sans-serif; background: transparent; color: #0E1013;">SUV / Van</button>
+</div>
+</fieldset>
+</div>
+
+<div style="margin-top: 44px; display: grid; grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)); gap: 20px;">
+<div class="pl-card" style="background: #FFFFFF; border: 1px solid #C9D1DA; border-radius: 22px; padding: 32px; display: flex; flex-direction: column;">
+<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#1565C0" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22a7 7 0 0 0 7-7c0-2-1-3.9-3-5.5s-3.5-4-4-6.5c-.5 2.5-2 4.9-4 6.5C6 11.1 5 13 5 15a7 7 0 0 0 7 7z"></path></svg>
+<h3 style="margin: 16px 0 4px; font-family: 'Inter Tight', Inter, sans-serif; font-size: 26px; letter-spacing: -0.02em;">Außen</h3>
+<p style="margin: 0; color: #3E4752; font-size: 16px;">Schonende Handwäsche für zwischendurch.</p>
+<p style="margin: 22px 0 0; font-family: 'Inter Tight', Inter, sans-serif; font-weight: 800; font-size: 52px; line-height: 1; letter-spacing: -0.04em;"><span id="pl-pA">59</span> €</p>
+<ul style="margin: 22px 0 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 9px; font-size: 16px; color: #2A313A; flex: 1 1 auto;">
+<li style="display: flex; gap: 10px;"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1565C0" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none; margin-top: 3px;"><path d="M20 6 9 17l-5-5"></path></svg>Handwäsche, wassersparend</li>
+<li style="display: flex; gap: 10px;"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1565C0" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none; margin-top: 3px;"><path d="M20 6 9 17l-5-5"></path></svg>Felgen &amp; Reifen</li>
+<li style="display: flex; gap: 10px;"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1565C0" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none; margin-top: 3px;"><path d="M20 6 9 17l-5-5"></path></svg>Scheiben außen streifenfrei</li>
+<li style="display: flex; gap: 10px;"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1565C0" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none; margin-top: 3px;"><path d="M20 6 9 17l-5-5"></path></svg>Sprühwachs-Finish</li>
+</ul>
+<a class="pl-btn" href="https://wa.me/4917683210136?text=Hallo%20perl.%2C%20ich%20m%C3%B6chte%20einen%20Termin%20anfragen." style="margin-top: 26px; display: inline-flex; justify-content: center; align-items: center; min-height: 50px; border-radius: 14px; border: 1px solid #0E1013; color: #0E1013; font-weight: 600; text-decoration: none;">Außen buchen</a>
+</div>
+
+<div class="pl-card" style="background: #FFFFFF; border: 1px solid #C9D1DA; border-radius: 22px; padding: 32px; display: flex; flex-direction: column;">
+<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#1565C0" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.7 3.7 0 0 0 2 12v4c0 .6.4 1 1 1h2"></path><circle cx="7" cy="17" r="2"></circle><path d="M9 17h6"></path><circle cx="17" cy="17" r="2"></circle></svg>
+<h3 style="margin: 16px 0 4px; font-family: 'Inter Tight', Inter, sans-serif; font-size: 26px; letter-spacing: -0.02em;">Innen</h3>
+<p style="margin: 0; color: #3E4752; font-size: 16px;">Gründlich – vom Fußraum bis zum Dachhimmel.</p>
+<p style="margin: 22px 0 0; font-family: 'Inter Tight', Inter, sans-serif; font-weight: 800; font-size: 52px; line-height: 1; letter-spacing: -0.04em;"><span id="pl-pI">89</span> €</p>
+<ul style="margin: 22px 0 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 9px; font-size: 16px; color: #2A313A; flex: 1 1 auto;">
+<li style="display: flex; gap: 10px;"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1565C0" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none; margin-top: 3px;"><path d="M20 6 9 17l-5-5"></path></svg>Saugen inkl. Kofferraum</li>
+<li style="display: flex; gap: 10px;"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1565C0" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none; margin-top: 3px;"><path d="M20 6 9 17l-5-5"></path></svg>Cockpit, Türen &amp; Kunststoffe</li>
+<li style="display: flex; gap: 10px;"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1565C0" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none; margin-top: 3px;"><path d="M20 6 9 17l-5-5"></path></svg>Scheiben innen</li>
+<li style="display: flex; gap: 10px;"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1565C0" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none; margin-top: 3px;"><path d="M20 6 9 17l-5-5"></path></svg>Fußmatten gereinigt</li>
+</ul>
+<a class="pl-btn" href="https://wa.me/4917683210136?text=Hallo%20perl.%2C%20ich%20m%C3%B6chte%20einen%20Termin%20anfragen." style="margin-top: 26px; display: inline-flex; justify-content: center; align-items: center; min-height: 50px; border-radius: 14px; border: 1px solid #0E1013; color: #0E1013; font-weight: 600; text-decoration: none;">Innen buchen</a>
+</div>
+
+<div class="pl-card" style="background: #0E1013; color: #EEF1F4; border: 1px solid #0E1013; border-radius: 22px; padding: 32px; display: flex; flex-direction: column; position: relative;">
+<span style="position: absolute; top: 24px; right: 24px; background: #8BD3FF; color: #0E1013; border-radius: 999px; padding: 4px 12px; font-size: 13px; font-weight: 600;">Beliebt</span>
+<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#8BD3FF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"></path></svg>
+<h3 style="margin: 16px 0 4px; font-family: 'Inter Tight', Inter, sans-serif; font-size: 26px; letter-spacing: -0.02em;">Komplett</h3>
+<p style="margin: 0; color: #C9D1DA; font-size: 16px;">Innen + außen + Versiegelung. Wie vom Händler.</p>
+<p style="margin: 22px 0 0; font-family: 'Inter Tight', Inter, sans-serif; font-weight: 800; font-size: 52px; line-height: 1; letter-spacing: -0.04em;"><span id="pl-pK">199</span> €</p>
+<ul style="margin: 22px 0 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 9px; font-size: 16px; color: #DDE3EA; flex: 1 1 auto;">
+<li style="display: flex; gap: 10px;"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#8BD3FF" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none; margin-top: 3px;"><path d="M20 6 9 17l-5-5"></path></svg>Alles aus Außen &amp; Innen</li>
+<li style="display: flex; gap: 10px;"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#8BD3FF" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none; margin-top: 3px;"><path d="M20 6 9 17l-5-5"></path></svg>Lackreinigung mit Knete</li>
+<li style="display: flex; gap: 10px;"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#8BD3FF" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none; margin-top: 3px;"><path d="M20 6 9 17l-5-5"></path></svg>Lackversiegelung (mehrere Monate Schutz)</li>
+<li style="display: flex; gap: 10px;"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#8BD3FF" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none; margin-top: 3px;"><path d="M20 6 9 17l-5-5"></path></svg>Kunststoff- &amp; Gummipflege</li>
+</ul>
+<a class="pl-btn" href="https://wa.me/4917683210136?text=Hallo%20perl.%2C%20ich%20m%C3%B6chte%20einen%20Termin%20anfragen." style="margin-top: 26px; display: inline-flex; justify-content: center; align-items: center; min-height: 50px; border-radius: 14px; background: #8BD3FF; color: #0E1013; font-weight: 600; text-decoration: none;">Komplett buchen</a>
+</div>
+</div>
+
+<div style="margin-top: 28px; background: #FFFFFF; border: 1px solid #C9D1DA; border-radius: 22px; padding: 28px 32px;">
+<h3 style="margin: 0 0 16px; font-family: 'Inter Tight', Inter, sans-serif; font-size: 22px;">Extras</h3>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px 32px; font-size: 16px;">
+<div style="display: flex; justify-content: space-between; gap: 12px; border-bottom: 1px dashed #C9D1DA; padding-bottom: 10px;"><span>Tierhaare entfernen</span><strong>+ 25 €</strong></div>
+<div style="display: flex; justify-content: space-between; gap: 12px; border-bottom: 1px dashed #C9D1DA; padding-bottom: 10px;"><span>Lederreinigung &amp; -pflege</span><strong>+ 39 €</strong></div>
+<div style="display: flex; justify-content: space-between; gap: 12px; border-bottom: 1px dashed #C9D1DA; padding-bottom: 10px;"><span>Geruchsneutralisierung</span><strong>+ 39 €</strong></div>
+<div style="display: flex; justify-content: space-between; gap: 12px; border-bottom: 1px dashed #C9D1DA; padding-bottom: 10px;"><span>Polster-Tiefenreinigung</span><strong>ab 49 €</strong></div>
+</div>
+<p style="margin: 18px 0 0; font-size: 14px; color: #3E4752;">Preise inkl. Anfahrt im Münchner Stadtgebiet. Bei sehr starker Verschmutzung sagen wir dir vorher Bescheid.</p>
+</div>
+</div>
+</section>
+
+<!-- ABLAUF -->
+<section id="ablauf" class="pl-section" style="max-width: 1240px; margin: 0 auto; padding: 104px 24px 40px;">
+<p style="margin: 0; font-weight: 600; color: #8BD3FF; font-size: 15px; letter-spacing: 0.08em; text-transform: uppercase;">Ablauf</p>
+<h2 style="margin: 10px 0 0; font-family: 'Inter Tight', Inter, sans-serif; font-weight: 800; font-size: clamp(34px, 4.6vw, 60px); line-height: 1.02; letter-spacing: -0.04em;">Drei Schritte. Null Aufwand.</h2>
+<div style="margin-top: 48px; display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px;">
+<div style="border: 1px solid #2A313A; border-radius: 22px; padding: 30px; background: #151A20;">
+<p style="margin: 0; font-family: 'Inter Tight', Inter, sans-serif; font-weight: 800; font-size: 20px; color: #8BD3FF;">01</p>
+<h3 style="margin: 14px 0 6px; font-family: 'Inter Tight', Inter, sans-serif; font-size: 24px;">Schreib uns</h3>
+<p style="margin: 0; color: #C9D1DA; font-size: 16px;">Per WhatsApp: Auto, Paket, Wunschtermin und Adresse. Du bekommst schnell eine Bestätigung.</p>
+</div>
+<div style="border: 1px solid #2A313A; border-radius: 22px; padding: 30px; background: #151A20;">
+<p style="margin: 0; font-family: 'Inter Tight', Inter, sans-serif; font-weight: 800; font-size: 20px; color: #8BD3FF;">02</p>
+<h3 style="margin: 14px 0 6px; font-family: 'Inter Tight', Inter, sans-serif; font-size: 24px;">Wir kommen zu dir</h3>
+<p style="margin: 0; color: #C9D1DA; font-size: 16px;">Zuhause, im Büro oder in der Tiefgarage. Wasser und Ausrüstung bringen wir mit.</p>
+</div>
+<div style="border: 1px solid #2A313A; border-radius: 22px; padding: 30px; background: #151A20;">
+<p style="margin: 0; font-family: 'Inter Tight', Inter, sans-serif; font-weight: 800; font-size: 20px; color: #8BD3FF;">03</p>
+<h3 style="margin: 14px 0 6px; font-family: 'Inter Tight', Inter, sans-serif; font-size: 24px;">Fertig – dann zahlst du</h3>
+<p style="margin: 0; color: #C9D1DA; font-size: 16px;">Du schaust dir das Ergebnis an und zahlst bar, per PayPal oder Karte.</p>
+</div>
+</div>
+</section>
+
+<!-- BEFORE / AFTER -->
+<section id="vorher-nachher" class="pl-section" style="max-width: 1240px; margin: 0 auto; padding: 104px 24px 40px;">
+<p style="margin: 0; font-weight: 600; color: #8BD3FF; font-size: 15px; letter-spacing: 0.08em; text-transform: uppercase;">Vorher / Nachher</p>
+<h2 style="margin: 10px 0 0; font-family: 'Inter Tight', Inter, sans-serif; font-weight: 800; font-size: clamp(34px, 4.6vw, 60px); line-height: 1.02; letter-spacing: -0.04em;">Zieh den Regler.</h2>
+<div style="margin-top: 40px; position: relative; height: 440px; border-radius: 24px; overflow: hidden; border: 1px solid #2A313A;">
+<div class="pl-clean" style="position: absolute; inset: 0; display: flex; align-items: flex-end; justify-content: flex-end; padding: 20px;">
+<span style="background: rgba(14,16,19,.85); border-radius: 10px; padding: 8px 14px; font-weight: 600; font-size: 14px;">Nachher</span>
+</div>
+<div class="pl-dirt" id="pl-before" style="position: absolute; top: 0; bottom: 0; left: 0; width: 50%; display: flex; align-items: flex-end; padding: 20px; box-sizing: border-box; overflow: hidden; border-right: 3px solid #8BD3FF;">
+<span style="background: rgba(14,16,19,.85); border-radius: 10px; padding: 8px 14px; font-weight: 600; font-size: 14px; white-space: nowrap;">Vorher</span>
+</div>
+</div>
+<label for="pl-range" style="position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0);">Vorher-Nachher-Regler</label>
+<input id="pl-range" class="pl-range" type="range" min="0" max="100" value="50" style="margin-top: 14px;">
+</section>
+
+<!-- AREA -->
+<section class="pl-section" style="max-width: 1240px; margin: 0 auto; padding: 104px 24px 40px; display: flex; flex-wrap: wrap; gap: 40px; align-items: flex-start;">
+<div style="flex: 1 1 380px; min-width: 0;">
+<p style="margin: 0; font-weight: 600; color: #8BD3FF; font-size: 15px; letter-spacing: 0.08em; text-transform: uppercase;">Einsatzgebiet</p>
+<h2 style="margin: 10px 0 0; font-family: 'Inter Tight', Inter, sans-serif; font-weight: 800; font-size: clamp(34px, 4.6vw, 60px); line-height: 1.02; letter-spacing: -0.04em;">Ganz München.</h2>
+<p style="margin: 18px 0 0; color: #C9D1DA; font-size: 18px; max-width: 460px;">Im Stadtgebiet ist die Anfahrt inklusive. Umland auf Anfrage.</p>
+</div>
+<div style="flex: 1 1 520px; min-width: 0; display: flex; flex-wrap: wrap; gap: 10px;">
+<span style="border: 1px solid #2A313A; border-radius: 999px; padding: 9px 16px; font-size: 15px;">Schwabing</span>
+<span style="border: 1px solid #2A313A; border-radius: 999px; padding: 9px 16px; font-size: 15px;">Maxvorstadt</span>
+<span style="border: 1px solid #2A313A; border-radius: 999px; padding: 9px 16px; font-size: 15px;">Bogenhausen</span>
+<span style="border: 1px solid #2A313A; border-radius: 999px; padding: 9px 16px; font-size: 15px;">Haidhausen</span>
+<span style="border: 1px solid #2A313A; border-radius: 999px; padding: 9px 16px; font-size: 15px;">Neuhausen</span>
+<span style="border: 1px solid #2A313A; border-radius: 999px; padding: 9px 16px; font-size: 15px;">Sendling</span>
+<span style="border: 1px solid #2A313A; border-radius: 999px; padding: 9px 16px; font-size: 15px;">Giesing</span>
+<span style="border: 1px solid #2A313A; border-radius: 999px; padding: 9px 16px; font-size: 15px;">Pasing</span>
+<span style="border: 1px solid #2A313A; border-radius: 999px; padding: 9px 16px; font-size: 15px;">Nymphenburg</span>
+<span style="border: 1px solid #2A313A; border-radius: 999px; padding: 9px 16px; font-size: 15px;">Trudering</span>
+<span style="border: 1px solid #2A313A; border-radius: 999px; padding: 9px 16px; font-size: 15px;">Moosach</span>
+<span style="border: 1px solid #2A313A; border-radius: 999px; padding: 9px 16px; font-size: 15px;">Au</span>
+<span style="border: 1px solid #8BD3FF; color: #8BD3FF; border-radius: 999px; padding: 9px 16px; font-size: 15px;">+ alle anderen Stadtteile</span>
+</div>
+</section>
+
+<!-- FAQ -->
+<section id="faq" class="pl-section" style="max-width: 920px; margin: 0 auto; padding: 104px 24px 40px;">
+<p style="margin: 0; font-weight: 600; color: #8BD3FF; font-size: 15px; letter-spacing: 0.08em; text-transform: uppercase;">FAQ</p>
+<h2 style="margin: 10px 0 32px; font-family: 'Inter Tight', Inter, sans-serif; font-weight: 800; font-size: clamp(34px, 4.6vw, 60px); line-height: 1.02; letter-spacing: -0.04em;">Gute Fragen.</h2>
+<div style="border-top: 1px solid #2A313A;">
+<details style="border-bottom: 1px solid #2A313A; padding: 20px 0;">
+<summary style="display: flex; justify-content: space-between; align-items: center; gap: 16px; font-family: 'Inter Tight', Inter, sans-serif; font-weight: 700; font-size: 20px; min-height: 44px;">Brauche ich Wasser oder Strom?<span class="pl-plus" aria-hidden="true" style="font-size: 28px; line-height: 1; color: #8BD3FF;">+</span></summary>
+<p style="margin: 10px 0 0; color: #C9D1DA;">Nein. Wir bringen alles mit und arbeiten mit wassersparenden Produkten – ohne Schlauch und ohne Schmutzwasser auf der Straße.</p>
+</details>
+<details style="border-bottom: 1px solid #2A313A; padding: 20px 0;">
+<summary style="display: flex; justify-content: space-between; align-items: center; gap: 16px; font-family: 'Inter Tight', Inter, sans-serif; font-weight: 700; font-size: 20px; min-height: 44px;">Wie lange dauert das?<span class="pl-plus" aria-hidden="true" style="font-size: 28px; line-height: 1; color: #8BD3FF;">+</span></summary>
+<p style="margin: 10px 0 0; color: #C9D1DA;">Außen ca. 1 Stunde, Innen ca. 1,5–2 Stunden, Komplett ca. 4 Stunden – je nach Größe und Zustand.</p>
+</details>
+<details style="border-bottom: 1px solid #2A313A; padding: 20px 0;">
+<summary style="display: flex; justify-content: space-between; align-items: center; gap: 16px; font-family: 'Inter Tight', Inter, sans-serif; font-weight: 700; font-size: 20px; min-height: 44px;">Muss ich dabei sein?<span class="pl-plus" aria-hidden="true" style="font-size: 28px; line-height: 1; color: #8BD3FF;">+</span></summary>
+<p style="margin: 10px 0 0; color: #C9D1DA;">Nur kurz zur Schlüsselübergabe und am Ende zur Abnahme. Dazwischen kannst du ganz normal weiterarbeiten.</p>
+</details>
+<details style="border-bottom: 1px solid #2A313A; padding: 20px 0;">
+<summary style="display: flex; justify-content: space-between; align-items: center; gap: 16px; font-family: 'Inter Tight', Inter, sans-serif; font-weight: 700; font-size: 20px; min-height: 44px;">Was ist, wenn es regnet?<span class="pl-plus" aria-hidden="true" style="font-size: 28px; line-height: 1; color: #8BD3FF;">+</span></summary>
+<p style="margin: 10px 0 0; color: #C9D1DA;">Innenreinigungen gehen bei jedem Wetter. Für Außenarbeiten verschieben wir kostenlos – oder arbeiten in deiner Tiefgarage.</p>
+</details>
+<details style="border-bottom: 1px solid #2A313A; padding: 20px 0;">
+<summary style="display: flex; justify-content: space-between; align-items: center; gap: 16px; font-family: 'Inter Tight', Inter, sans-serif; font-weight: 700; font-size: 20px; min-height: 44px;">Kann ich einen Gutschein verschenken?<span class="pl-plus" aria-hidden="true" style="font-size: 28px; line-height: 1; color: #8BD3FF;">+</span></summary>
+<p style="margin: 10px 0 0; color: #C9D1DA;">Ja. Schreib uns einfach per WhatsApp, welches Paket du verschenken möchtest.</p>
+</details>
+</div>
+</section>
+
+<!-- CTA -->
+<section class="pl-section" style="max-width: 1240px; margin: 0 auto; padding: 104px 24px;">
+<div class="pl-cta pl-clean" style="position: relative; overflow: hidden; border-radius: 30px; padding: clamp(36px, 6vw, 80px); border: 1px solid #2A313A;">
+<div aria-hidden="true">
+<span class="pl-bead" style="right: 8%; top: 18%; width: 30px; height: 28px;"></span>
+<span class="pl-bead" style="right: 16%; top: 40%; width: 16px; height: 15px;"></span>
+<span class="pl-bead" style="right: 6%; top: 62%; width: 22px; height: 20px;"></span>
+</div>
+<h2 style="margin: 0; position: relative; font-family: 'Inter Tight', Inter, sans-serif; font-weight: 800; font-size: clamp(38px, 5.6vw, 76px); line-height: 0.98; letter-spacing: -0.045em; max-width: 760px;">Bereit für den Glanz?</h2>
+<p style="margin: 20px 0 0; position: relative; font-size: 20px; color: #C9D1DA; max-width: 560px;">Schick uns eine WhatsApp mit Auto, Paket und Wunschtermin – wir melden uns schnell.</p>
+<div style="margin-top: 36px; position: relative; display: flex; flex-wrap: wrap; gap: 12px;">
+<a class="pl-btn" href="https://wa.me/4917683210136?text=Hallo%20perl.%2C%20ich%20m%C3%B6chte%20einen%20Termin%20anfragen." style="display: inline-flex; align-items: center; gap: 10px; background: #8BD3FF; color: #0E1013; padding: 16px 28px; border-radius: 14px; font-weight: 600; font-size: 18px; text-decoration: none; min-height: 44px; box-sizing: border-box;">
+<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"></path></svg>
+WhatsApp schreiben
+</a>
+<a class="pl-btn" href="tel:+4917683210136" style="display: inline-flex; align-items: center; gap: 10px; color: #EEF1F4; border: 1px solid #5A6470; padding: 16px 28px; border-radius: 14px; font-weight: 600; font-size: 18px; text-decoration: none; min-height: 44px; box-sizing: border-box;">0176 83210136</a>
+</div>
+</div>
+</section>
+
+<!-- FOOTER -->
+<footer style="border-top: 1px solid #222830;">
+<div style="max-width: 1240px; margin: 0 auto; padding: 32px 24px 44px; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 16px; font-size: 15px; color: #C9D1DA;">
+<div style="display: flex; align-items: center; gap: 14px; flex-wrap: wrap;"><svg role="img" aria-label="perl." viewBox="1.69 24.25 191.60 99.16" width="43" height="22" style="display: block;"><path d="M4.6875 120.41015625H21.484375V92.333984375H21.6796875C24.365234375 98.046875 29.443359375 101.123046875 36.23046875 101.123046875C49.755859375 101.123046875 58.49609375 90.4296875 58.49609375 74.12109375C58.49609375 58.349609375 49.4140625 47.314453125 36.376953125 47.314453125C29.6875 47.314453125 24.609375 49.951171875 21.533203125 55.17578125H21.2890625V48.4375H4.6875ZM31.494140625 87.6953125C25.146484375 87.6953125 20.80078125 82.373046875 20.80078125 74.12109375C20.80078125 65.966796875 25.146484375 60.693359375 31.494140625 60.693359375C37.6953125 60.693359375 41.50390625 65.72265625 41.50390625 74.12109375C41.50390625 82.6171875 37.6953125 87.6953125 31.494140625 87.6953125ZM85.685546875 101.171875C98.72265625 101.171875 109.123046875 93.896484375 111.02734375 83.49609375H95.939453125C94.71875 86.9140625 91.203125 89.0625 86.271484375 89.0625C79.630859375 89.0625 75.724609375 84.912109375 75.529296875 78.369140625H111.41796875V73.828125C111.41796875 58.203125 100.724609375 47.265625 85.24609375 47.265625C69.962890625 47.265625 59.123046875 58.49609375 59.123046875 74.21875C59.123046875 89.94140625 69.865234375 101.171875 85.685546875 101.171875ZM75.626953125 68.310546875C76.359375 62.890625 80.021484375 59.66796875 85.685546875 59.66796875C91.30078125 59.66796875 95.01171875 62.890625 95.744140625 68.310546875ZM113.94921875 100.0H130.74609375V73.583984375C130.74609375 66.259765625 134.896484375 62.060546875 140.90234375 62.060546875C143.34375 62.060546875 146.322265625 62.158203125 147.54296875 62.20703125V48.33984375C146.17578125 48.291015625 144.759765625 48.2421875 142.953125 48.2421875C136.068359375 48.2421875 132.2109375 50.9765625 130.35546875 57.51953125H130.208984375V48.4375H113.94921875ZM165.6015625 27.24609375H148.8046875V100.0H165.6015625Z" fill="#EEF1F4"></path><path d="M181.79 73.65 C184.76 79.60 190.29 86.83 190.29 91.50 A8.5 8.5 0 1 1 173.29 91.50 C173.29 86.83 178.81 79.60 181.79 73.65Z" fill="#8BD3FF"></path></svg><span>Mobile Autoaufbereitung · München</span></div>
+<div class="pl-nav" style="display: flex; gap: 24px;">
+<a href="#impressum">Impressum</a>
+<a href="#datenschutz">Datenschutz</a>
+</div>
+</div>
+</footer>
+
+</div>
+<script>
+(function(){
+var add={S:0,M:20,L:40};
+var btns=document.querySelectorAll('[data-size]');
+btns.forEach(function(b){b.addEventListener('click',function(){
+ var s=b.getAttribute('data-size'),a=add[s];
+ document.getElementById('pl-pA').textContent=59+a;
+ document.getElementById('pl-pI').textContent=89+a;
+ document.getElementById('pl-pK').textContent=199+a*2;
+ btns.forEach(function(o){var on=o===b;o.style.background=on?'#0E1013':'transparent';o.style.color=on?'#EEF1F4':'#0E1013';o.setAttribute('aria-pressed',on?'true':'false');});
+});});
+var r=document.getElementById('pl-range'),bf=document.getElementById('pl-before');
+r.addEventListener('input',function(){bf.style.width=r.value+'%';});
+})();
+</script>
+</body>
+</html>
